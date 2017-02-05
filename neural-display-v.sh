@@ -42,7 +42,7 @@
 		#Create the Comparison
 		montage $content $style_nc -resize "$styled_image_w"x"$content_c" -tile "$wc2"x1 -geometry +0+0 $temp_dir/comparison_resize.png
 		convert $temp_dir/comparison_resize.png -resize $styled_image_w $temp_dir/comparison.png
-		montage $input $temp_dir/comparison.png -tile 1x2 -geometry +0+0 comparison_final.png
+		montage $input $temp_dir/comparison.png -tile 1x2 -geometry +0+0 comparison_final_v.png
   
     #remove temp directory
 		rm -rf $temp_dir
@@ -60,7 +60,7 @@
 		#Create the Comparison
 		montage $content $style_nc -resize "$styled_image_w"x"$content_c" -tile "$wc2"x1 -geometry +0+0 $temp_dir/comparison_resize.png
 		convert $temp_dir/comparison_resize.png -resize $styled_image_w $temp_dir/comparison.png
-		montage $input $temp_dir/comparison.png -tile 1x2 -geometry +0+0 comparison_final.png
+		montage $input $temp_dir/comparison.png -tile 1x2 -geometry +0+0 comparison_final_v.png
 
     #remove temp directory
 		rm -rf $temp_dir
