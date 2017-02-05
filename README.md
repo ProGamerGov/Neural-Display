@@ -21,8 +21,8 @@ For a horizontal comparison:
 For a vertical comparison:
 `./neural-display-v.sh <styled_image> <style_image(s)> <content_image>`
 
-The style images should be separated with a comma like they are in Neural-Style Commands. 
-* Ex: `style1.png,style2.png,style3.png`
+The style images should be separated with a comma like they are in [Neural-Style](https://github.com/jcjohnson/neural-style) commands:
+`style1.png,style2.png,style3.png`
 
 ---
 
