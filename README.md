@@ -16,9 +16,11 @@ ImageMagick can be installed on Ubuntu with:
 #Usage: 
 
 For a horizontal comparison:
+
 `./neural-display-h.sh <styled_image> <style_image(s)> <content_image>`
 
 For a vertical comparison:
+
 `./neural-display-v.sh <styled_image> <style_image(s)> <content_image>`
 
 The style images should be separated with a comma like they are in [Neural-Style](https://github.com/jcjohnson/neural-style) commands:
@@ -49,5 +51,11 @@ If you face a permission error, try using chmod to fix the issue:
 Or:
 
 `chmod u+x ./neural-display-v.sh`
+
+You can also try adding sudo bash like: 
+
+`sudo bash ./neural-display-h.sh`
+Or:
+`sudo bash ./neural-display-v.sh`
 
 --- 
