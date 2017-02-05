@@ -32,15 +32,15 @@ If you end up with [a white background showing/the images not filling the space 
 
 #Example Outputs:
 
-![](https://i.imgur.com/FAAxmpS.jpg)
+![](https://i.imgur.com/FAAxmpSl.jpg)
 
-![](https://i.imgur.com/GAmJUpH.jpg)
+![](https://i.imgur.com/GAmJUpHl.jpg)
 
-![](https://i.imgur.com/zQNKB9E.jpg)
+![](https://i.imgur.com/zQNKB9El.jpg)
 
-![](https://i.imgur.com/mLSixxs.jpg)
+![](https://i.imgur.com/mLSixxsl.jpg)
 
-![](https://i.imgur.com/yBxYqMv.jpg)
+![](https://i.imgur.com/yBxYqMvl.jpg)
 
 ---
 
