@@ -1,5 +1,5 @@
 # Neural-Display
-Display your styled outputs alongside the content and style image(s)
+Display your styled outputs alongside their content and style image(s), in a single image.
 
 ---
 
