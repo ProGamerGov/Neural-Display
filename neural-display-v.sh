@@ -1,8 +1,7 @@
 #! /bin/bash 
 
-#Usage ./test.sh styled_image.png style_images.png,style_images.png content_image.jpg
+	size_factor=2
 
-#main(){
 	# 1. Defines the content image as a variable
 	input=$1
 	input_file=`basename $input`
@@ -38,7 +37,7 @@
 		#find num style images
 		wc=$(($(wc -w <<< "${style_nc}"))) 
 		wc2=`echo $wc 1 | awk '{print $1+$2}'`
-		content_c=`echo $styled_image_h 2 | awk '{print $1/$2}'`
+		content_c=`echo $styled_image_h $size_factor | awk '{print $1/$2}'`
 
 		#Create the Comparison
 		echo Creating output... This may take some time...
@@ -57,7 +56,7 @@
 		#find num style images
 		wc=$(($(wc -w <<< "${style_nc}"))) 
 		wc2=`echo $wc 1 | awk '{print $1+$2}'`
-		content_c=`echo $styled_image_h 2 | awk '{print $1/$2}'`
+		content_c=`echo $styled_image_h $size_factor | awk '{print $1/$2}'`
 
 		#Create the Comparison
 		echo Creating output... This may take some time...
