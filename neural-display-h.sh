@@ -36,7 +36,7 @@
 		#find num style images
 		wc=$(($(wc -w <<< "${style_nc}"))) 
 		wc2=`echo $wc 1 | awk '{print $1+$2}'`
-		content_c=`echo $styled_image_w 4 | awk '{print $1/$2}'`
+		content_c=`echo $styled_image_w 2 | awk '{print $1/$2}'`
 
 		#Create the Comparison
 		montage $content $style_nc -resize "$content_c"x"$styled_image_h" -tile 1x"$wc2" -geometry +0+0 $temp_dir/comparison_resize.png
@@ -55,7 +55,7 @@
 		#find num style images
 		wc=$(($(wc -w <<< "${style_nc}"))) 
 		wc2=`echo $wc 1 | awk '{print $1+$2}'`
-		content_c=`echo $styled_image_w 4 | awk '{print $1/$2}'`
+		content_c=`echo $styled_image_w 2 | awk '{print $1/$2}'`
 
 		#Create the Comparison
 		montage $content $style_nc -resize "$content_c"x"$styled_image_h" -tile 1x"$wc2" -geometry +0+0 $temp_dir/comparison_resize.png
