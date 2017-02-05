@@ -40,7 +40,6 @@
 
 		#Create the Comparison
 		montage $content $style_nc -resize "$content_c"x"$styled_image_h" -tile 1x"$wc2" -geometry +0+0 $temp_dir/comparison_resize.png
-		echo style comp
 		convert $temp_dir/comparison_resize.png -resize x"$styled_image_h" $temp_dir/comparison.png
 		montage $temp_dir/comparison.png $input -tile 2x1 -geometry +0+0 comparison_final_h.png
 
