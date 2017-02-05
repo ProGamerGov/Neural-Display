@@ -26,6 +26,8 @@ For a vertical comparison:
 The style images should be separated with a comma like they are in [Neural-Style](https://github.com/jcjohnson/neural-style) commands:
 `style1.png,style2.png,style3.png`
 
+If you end up with a white background showing/the images not filling the space correctly, change the `size_factor` in the applicable script to a larger value.
+
 ---
 
 #Example Outputs:
