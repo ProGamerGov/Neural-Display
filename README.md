@@ -27,6 +27,14 @@ For a vertical comparison:
 
 ![](https://i.imgur.com/hbq3aaM.jpg)
 
+![](https://i.imgur.com/qmySQRV.jpg)
+
+![](https://i.imgur.com/MzdF1tS.jpg)
+
+![](https://i.imgur.com/wNEuJJV.jpg)
+
+
+
 ---
 
 #Troubleshooting
