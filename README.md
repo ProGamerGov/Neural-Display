@@ -36,7 +36,7 @@ If you end up with [a white background showing/the images not filling the space 
 
 ![](https://i.imgur.com/GAmJUpH.jpg)
 
-![](https://i.imgur.com/MzdF1tS.jpg)
+![](https://i.imgur.com/zQNKB9E.jpg)
 
 ![](https://i.imgur.com/mLSixxs.jpg)
 
