@@ -32,7 +32,7 @@ If you end up with [a white background showing/the images not filling the space 
 
 #Example Outputs:
 
-![](https://i.imgur.com/hbq3aaM.jpg)
+![](https://i.imgur.com/FAAxmpS.jpg)
 
 ![](https://i.imgur.com/GAmJUpH.jpg)
 
