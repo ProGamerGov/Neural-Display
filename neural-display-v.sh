@@ -33,6 +33,7 @@
 		echo commas detected
 		#Remove commas
 		style_nc=`echo $style | tr ',' ' '`
+		echo commas removed
 
 		#find num style images
 		wc=$(($(wc -w <<< "${style_nc}"))) 
@@ -40,6 +41,7 @@
 		content_c=`echo $styled_image_h 2 | awk '{print $1/$2}'`
 
 		#Create the Comparison
+		echo Creating output... This may take some time...
 		montage $content $style_nc -resize "$styled_image_w"x"$content_c" -tile "$wc2"x1 -geometry +0+0 $temp_dir/comparison_resize.png
 		convert $temp_dir/comparison_resize.png -resize $styled_image_w $temp_dir/comparison.png
 		montage $input $temp_dir/comparison.png -tile 1x2 -geometry +0+0 comparison_final_v.png
@@ -58,6 +60,7 @@
 		content_c=`echo $styled_image_h 2 | awk '{print $1/$2}'`
 
 		#Create the Comparison
+		echo Creating output... This may take some time...
 		montage $content $style_nc -resize "$styled_image_w"x"$content_c" -tile "$wc2"x1 -geometry +0+0 $temp_dir/comparison_resize.png
 		convert $temp_dir/comparison_resize.png -resize $styled_image_w $temp_dir/comparison.png
 		montage $input $temp_dir/comparison.png -tile 1x2 -geometry +0+0 comparison_final_v.png
